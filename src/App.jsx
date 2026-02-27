@@ -3,7 +3,7 @@ import Navbar from '../components/navbar/navbar'
 import BlurText from "../components/BlurText/BlurText";
 import './App.css'
 // import LightPillar from '../components/LightPillar/LightPillar';
-import TiltedCard from '../components/TiltedCard/Tiltedcard';
+import TiltedCard from '../components/TiltedCard/TiltedCard';
 import profilePhoto from "./assets/Profile-photo.jpeg";
 import { ArrowUpRight, Mouse, } from 'lucide-react';
 import DarkVeil from '../components/DarkVeil/DarkVeil';
