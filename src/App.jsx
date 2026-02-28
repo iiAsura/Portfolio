@@ -47,7 +47,7 @@ function App() {
         <Navbar />
 
         
-        <div style={{ width: '100%', height: '100%', position: 'absolute', top: '0' }}>
+        <div style={{ width: '100%', height: '100%', position: 'absolute', top: '0', pointerEvents: 'none', zIndex: 0 }}>
           <DarkVeil
             hueShift={316}
             noiseIntensity={0}
@@ -59,7 +59,7 @@ function App() {
         </div>
       </section>
 
-      <section className='section main'>
+      <section className='section main relative z-20 md:static md:z-0'>
         <BlurText
           text="Trust and Learn."
           delay={300}
@@ -74,7 +74,7 @@ function App() {
           <ArrowUpRight className='group-hover:stroke-purple-800 transition' />
         </a>
 
-        <Mouse size={40} className='absolute bottom-20' />
+        <Mouse size={40} className='absolute bottom-20 hidden sm:block' />
       </section>
 
       {/* ── About ── */}
