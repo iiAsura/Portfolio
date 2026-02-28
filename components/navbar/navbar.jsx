@@ -44,7 +44,7 @@ function Navbar() {
                 </nav>
             </header>
 
-            <div className="hidden max-md:block" style={{ height: '100vh', background: '#1a1a1a' }}>           
+            <div className="hidden max-md:block" style={{ height: '100vh', position: "absolute", width: "100%", background: '#1a1a1a' }}>           
            
                 <StaggeredMenu
                     position="right"

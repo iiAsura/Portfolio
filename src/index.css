@@ -3,6 +3,7 @@
 body{
     margin:0px;
     color: white;
+    overflow-x: hidden;
 }
 
 .section{
